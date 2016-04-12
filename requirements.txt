@@ -16,7 +16,7 @@ djangorestframework==3.3.3
 kombu==3.0.33
 oauthlib==1.0.3
 phonenumbers==7.2.4
-psycopg2==2.6.1
+#psycopg2==2.6.1
 python-social-auth==0.2.14
 python3-openid==3.0.9
 pytz==2015.7
