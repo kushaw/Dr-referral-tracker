@@ -37,7 +37,7 @@ MetronicApp.controller('OrganizationsController', function($rootScope, $scope, $
 	
 	$scope.orgData 
 	
-	$http.get('http://localhost:8000/api/v1/organization/')
+	$http.get('../../api/v1/organization/')
        .then(function(res){
           $scope.orgData = res.data;
 		  console.log($scope.orgData) 
